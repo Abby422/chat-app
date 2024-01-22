@@ -2,7 +2,7 @@ const { CohereClient } = require("cohere-ai");
 require("dotenv").config();
 
 const cohere = new CohereClient({
-  token: process.env.API_KEY,
+  token: "xNGsvKUT6rean2FliNUswGxLWLAxI2QfKbsnJCW3",
 });
 
 module.exports = {
